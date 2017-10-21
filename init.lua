@@ -196,9 +196,6 @@ end
 do
   local _class_0
   local _base_0 = {
-    debug = function(msg)
-      return print(msg)
-    end,
     describe = function(self, subject, fn)
       return Describe(self, subject, fn)
     end,
@@ -264,7 +261,6 @@ do
   _base_0.__class = _class_0
   local self = _class_0
   self.TIMEOUT = 5
-  self.DEBUG = false
   Runner = _class_0
 end
 return Runner

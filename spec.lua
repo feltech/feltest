@@ -170,4 +170,4 @@ if high_prio == 0 then
   lassert.is.same(resume_count, 5)
 end
 print("Tests completed with success=" .. tostring(success))
-return os.exit(sucess and 0 or 1)
+return os.exit(success and 0 or 1)
